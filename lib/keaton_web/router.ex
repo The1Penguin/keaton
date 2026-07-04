@@ -8,6 +8,7 @@ defmodule KeatonWeb.Router do
     plug :put_root_layout, html: {KeatonWeb.Layouts, :root}
     plug :protect_from_forgery
     plug :put_secure_browser_headers
+    plug KeatonWeb.Plugs.Locale, "en"
   end
 
   pipeline :api do
@@ -19,6 +20,7 @@ defmodule KeatonWeb.Router do
 
     get "/", PageController, :home
     get "/hello", HelloController, :index
+    get "/hello/:messenger", HelloController, :show
   end
 
   # Other scopes may use custom stacks.
