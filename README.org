@@ -1,0 +1,22 @@
+#+title: Keaton
+
+Keaton is a test repository of learning elixir and more specifically Phoenix.
+It will eventually evolve into a selfhosted book scrobble platform, similarly to how [[reviewing][maloja]] works.
+
+* Dev'ing
+To start your Phoenix server:
+
+- Run ~mix setup~ to install and setup dependencies
+- Start Phoenix endpoint with ~mix phx.server~ or inside IEx with ~iex -S mix phx.server~
+
+Now you can visit [[http://localhost:4000][localhost:4000]] from your browser.
+
+Ready to run in production? Please [[https://hexdocs.pm/phoenix/deployment.html][check our deployment guides]].
+
+** Learn more
+
+- [[https://www.phoenixframework.org/][Official website]]
+- [[https://hexdocs.pm/phoenix/overview.html][Guides]]
+- [[https://hexdocs.pm/phoenix][Docs]]
+- [[https://elixirforum.com/c/phoenix-forum][Forum]]
+- [[https://github.com/phoenixframework/phoenix][Source]]
