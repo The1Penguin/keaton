@@ -20,3 +20,8 @@ Ready to run in production? Please [[https://hexdocs.pm/phoenix/deployment.html]
 - [[https://hexdocs.pm/phoenix][Docs]]
 - [[https://elixirforum.com/c/phoenix-forum][Forum]]
 - [[https://github.com/phoenixframework/phoenix][Source]]
+
+** Nix
+The Nix flake also has a devshell which provides elixir, erlang, postgres, and a tailwindcli binary.
+This means that the program looks for binary from the environment variable ~TAILWINDCSS_PATH~ which should have the path to tailwind.
+This is automatically set from direnv, which also starts a postgres database with correct setup and runs ~mix ecto.create~.
